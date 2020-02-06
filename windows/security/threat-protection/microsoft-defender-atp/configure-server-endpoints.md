@@ -223,6 +223,7 @@ To offboard the server, you can use either of the following methods:
 2. Open an elevated PowerShell and run the following command. Use the Workspace ID you obtained and replacing `WorkspaceID`:
 
     ```
+    $WorkspaceID = '00000000-0000-0000-0000-000000000000'
     # Load agent scripting object
     $AgentCfg = New-Object -ComObject AgentConfigManager.MgmtSvcCfg
     # Remove OMS Workspace
